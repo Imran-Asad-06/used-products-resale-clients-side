@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import img from '../../assets/login.svg';
+import img from '../../assets/assets/login.svg';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../context/AuthProvider';
 
@@ -50,7 +50,7 @@ const SignUp = () => {
             img
           
         }
-            fetch('http://localhost:5000//users',{
+            fetch('http://localhost:5000/users',{
                 method:'POST',
                 headers: {
                     'Content-Type': 'application/json',

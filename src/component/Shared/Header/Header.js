@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../context/AuthProvider';
-import logo from '../../assets/logo-96.png';
+import logo from '../../assets/assets/logo-96.png';
 const Header = () => {
   const { user, LogOut } = useContext(AuthContext);
 
@@ -37,7 +37,7 @@ const Header = () => {
               
           </div>
          <img className='w-12 h-12' src={logo}alt="" />
-          <Link to="/" className="btn btn-ghost normal-case text-xl ">RecycleBin</Link>
+          <Link to="/" className="btn btn-ghost normal-case text-xl ">Old-Furniture</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0 ">

@@ -7,7 +7,7 @@ import AllBuyer from "../component/Pages/Dashboard/AllBuyer/AllBuyer";
 import AllSeller from "../component/Pages/Dashboard/AllSeller/AllSeller";
 import AllUsers from "../component/Pages/Dashboard/AllUsers/AllUsers";
 import MyOrders from "../component/Pages/Dashboard/Buyers/MyOrders/MyOrders";
-import Dashboard from "../component/Pages/Dashboard/Dashboard";
+// import Dashboard from "../component/Pages/Dashboard/Dashboard";
 import AddProduct from "../component/Pages/Dashboard/Seller/AddProduct";
 import Home from "../component/Pages/Home/Home";
 import Login from "../component/Pages/Login/Login";
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'/categories/:id',
-                loader:({params})=> fetch(` https://recycle-bin-server-side-saima-sawrin.vercel.app/categories/${params.id}`),
+                loader:({params})=> fetch(` http://localhost:5000/categories/${params.id}`),
                 element: <Products></Products>
             },
     
@@ -80,7 +80,7 @@ const router = createBrowserRouter([
                 },
                 {
                     path:'/dashboard/addProducts',
-                    loader:()=> fetch(` https://recycle-bin-server-side-saima-sawrin.vercel.app/products`),
+                    loader:()=> fetch(` http://localhost:5000/products`),
                     element: <AddProduct></AddProduct>
                 },
             ]

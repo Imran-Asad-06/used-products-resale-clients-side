@@ -3,7 +3,7 @@ import React, { useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../context/AuthProvider';
 import { FaGoogle } from "react-icons/fa";
-import image from '../../assets/login.svg';
+import image from '../../assets/assets/login.svg';
 
 const Login = () => {
     const {LogIn , signIn , loading} = useContext(AuthContext)

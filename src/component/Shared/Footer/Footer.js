@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo-96.png';
+import logo from '../../assets/assets/logo-96.png';
 
 const Footer = () => {
     return (
@@ -11,7 +11,7 @@ const Footer = () => {
                     <img src={logo} alt="" />
                     </div>
                  
-                    <span className="self-center text-2xl  text-primary font-semibold">Recycle Bin</span>
+                    <span className="self-center text-2xl  text-primary font-semibold">Old-Furniture</span>
                 </a>
             </div>
             <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="py-6 text-sm text-center dark:text-gray-400">© 2020 Saima Sawrin. All rights reserved.</div>
+        <div className="py-6 text-sm text-center dark:text-gray-400">© 2020 Imran Asad, All rights reserved.</div>
     </footer>
     );
 };

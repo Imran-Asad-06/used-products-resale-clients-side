@@ -2,7 +2,7 @@ import React from 'react';
 import useTitle from '../../../Hooks/useTitle';
 import Header from '../../Shared/Header/Header';
 import Advertise from '../Advertise/Advertise';
-import Banner from '../Banner/Banner';
+import Banner from '../../Pages/Banner/Banner';
 import Categories from '../Categories/Categories';
 import Proven from '../Proven/Proven';
 
