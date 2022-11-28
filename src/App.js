@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+import { Toaster } from 'react-hot-toast';
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import router from './Routes/Routes';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='max-w-[1430px] mx-auto'>
+      <RouterProvider router={router}></RouterProvider>
+     <Toaster></Toaster>
     </div>
   );
 }
