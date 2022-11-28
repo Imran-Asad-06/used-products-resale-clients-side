@@ -50,7 +50,7 @@ const SignUp = () => {
             img
           
         }
-            fetch('http://localhost:5000/users',{
+            fetch(' https://used-product-market-server-one.vercel.app/users',{
                 method:'POST',
                 headers: {
                     'Content-Type': 'application/json',

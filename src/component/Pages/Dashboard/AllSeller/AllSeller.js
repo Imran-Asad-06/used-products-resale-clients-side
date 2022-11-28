@@ -4,14 +4,14 @@ import toast from 'react-hot-toast';
 const AllSeller = () => {
     const[sellers,setSellers] = useState();
     useEffect(()=>{
-        fetch('http://localhost:5000/users')
+        fetch(' https://used-product-market-server-one.vercel.app/users')
         .then(res => res.json())
         .then(data =>setSellers(data))
     },
         [])
 
     const handleSellerVerify = id => {
-        fetch(` http://localhost:5000/users/${id}`, {
+        fetch(`  https://used-product-market-server-one.vercel.app/users/${id}`, {
             method: 'PUT', 
             headers: {
                 authorization: `bearer ${localStorage.getItem('accessToken')}`

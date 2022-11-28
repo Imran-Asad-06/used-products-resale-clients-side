@@ -33,7 +33,7 @@ const AddProduct = () => {
         Use
       
     }
-        fetch(' http://localhost:5000/products',{
+        fetch('  https://used-product-market-server-one.vercel.app/products',{
             method:'POST',
             headers: {
                 'Content-Type': 'application/json',

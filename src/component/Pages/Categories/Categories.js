@@ -11,7 +11,7 @@ const Categories = () => {
        
 
     useEffect(()=>{
-        fetch('http://localhost:5000/categories')
+        fetch(' https://used-product-market-server-one.vercel.app/categories')
         .then(res => res.json())
         .then(data => setCategories(data))
     },

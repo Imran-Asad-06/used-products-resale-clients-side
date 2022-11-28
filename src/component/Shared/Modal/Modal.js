@@ -29,7 +29,7 @@ const Modal = ({p}) => {
       }
 
 
-      fetch('http://localhost:5000/bookings', {
+      fetch(' https://used-product-market-server-one.vercel.app/bookings', {
           method: 'POST',
           headers: {
               'content-type': 'application/json'

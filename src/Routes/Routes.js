@@ -37,7 +37,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'/categories/:id',
-                loader:({params})=> fetch(` http://localhost:5000/categories/${params.id}`),
+                loader:({params})=> fetch(`  https://used-product-market-server-one.vercel.app/categories/${params.id}`),
                 element: <Products></Products>
             },
     
@@ -80,7 +80,7 @@ const router = createBrowserRouter([
                 },
                 {
                     path:'/dashboard/addProducts',
-                    loader:()=> fetch(` http://localhost:5000/products`),
+                    loader:()=> fetch(`  https://used-product-market-server-one.vercel.app/products`),
                     element: <AddProduct></AddProduct>
                 },
             ]

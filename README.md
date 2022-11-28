@@ -1,5 +1,32 @@
 # Getting Started with Create React App
 
+# Project Name : 
+
+- Admin Email : imran.asad0006@gmail.com 
+- Admin password : asad12345
+
+* live link :  https://old-furniture-994a5.web.app
+
+1. Use react router dom
+2. Uses React tailwind framework for UI
+3. Uses Firebase for authentication
+4. Uses Express JS in Node JS .It makes the process of creating a server simple with built-in methods.
+5. also uses react-dom , react-icon
+6. JWT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

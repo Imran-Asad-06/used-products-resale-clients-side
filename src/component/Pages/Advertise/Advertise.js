@@ -8,7 +8,7 @@ const Advertise = () => {
     // const {advertises} = useLoaderData();
     const[ ads,setAds] = useState();
     useEffect(()=>{
-        fetch(' http://localhost:5000/products')
+        fetch('  https://used-product-market-server-one.vercel.app/products')
         .then(res => res.json())
         .then(data => setAds(data))
     },
